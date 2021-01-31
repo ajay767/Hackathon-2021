@@ -1,0 +1,35 @@
+html {
+	font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: "Roboto", sans-serif;
+	padding: 1.5rem;
+
+	@media only screen and (max-width: $bp-small) {
+		padding: 0rem;
+	}
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+
+	@media only screen and (max-width: $bp-small) {
+		width: 95%;
+	}
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,22 @@
+#A{
+    height: 90%;
+    width: 60%;
+     background-color: rgb(253, 228, 159);
+     font-size: xx-large;
+     float: left;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding-left:6px;
+     padding-right:2px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+   }
+   #B{
+     height: 30%;
+     background-color: rgb(253, 228, 159);
+     font-size: xx-large;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding-left:480px;
+     padding-right:480px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+   }

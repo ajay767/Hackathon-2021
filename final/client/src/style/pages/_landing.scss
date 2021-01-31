@@ -1,0 +1,17 @@
+.landing__swipper {
+	width: 80%;
+	height: 40rem;
+	margin: 1rem auto;
+	@media only screen and (max-width: $bp-small) {
+		width: 100%;
+		height: 25rem;
+		margin: auto;
+	}
+	&--item {
+		& img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+}
